@@ -1,0 +1,61 @@
+/* p{
+    font-size:1rem;
+}
+.text-white{
+    color:white;
+}
+.text-blue{
+    color: blue;
+}
+.bg-blue{
+    background-color: blue;
+}
+.large-txt{
+    font-size: 2rem;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Zain", sans-serif;
+}
+body{
+    direction: rtl;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.main-color{
+    color:#033E5C;
+}
+
+.w-65{
+    width: 64.5%;
+}
+.w-30{
+    width: 30%;
+}
+.container{
+    width:90%;
+    margin: 5% auto;
+}
+
+.pb-1{
+padding-bottom: 1%;
+}
+#right-side h2{
+    font-size:3rem;
+}
+#left-side {
+    padding-right: 2%;
+}
+#left-side h3{
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

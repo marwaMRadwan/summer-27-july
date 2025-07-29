@@ -1,0 +1,116 @@
+/* div{
+    color: red;
+    background-color: yellow;
+}
+#test{
+    color: green;
+}
+.x{
+    color: blue!important;
+} */
+/* #my-name #myName */
+/* 
+div{*/
+    /* color: red; */
+    /* color: rgb(139, 24, 24) */
+ /*   color: rgba(139, 24,54, 0.5);
+    color: #9f1212;
+    text-align: center;
+} */
+
+/* #services h2{ */
+    /*  left right justify center */
+    /* text-align: center; */
+    /* uppercase. lowercase. capitalize none*/
+    /* text-transform: capitalize;
+    text-shadow: 0px 0px 5px green;
+}
+
+#services p{
+    text-align: justify;
+    text-align-last: center;
+    text-indent: 0px;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    word-spacing: 0px;
+    white-space: normal;
+}
+
+#ar{
+    direction: rtl;
+}
+
+body{ */
+    /* background-color: rgba(255,0,0,0.3); */
+/* }
+
+#bg{
+    background-color: blue;
+    height: 25rem;
+    overflow: hidden;
+}
+#bg img{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit:cover; */
+    /* height: 100%;
+    width: 50%; */
+/* } */
+
+/* body{
+    height: 4000px;
+} */
+
+/* #bg{
+    height: 25rem; */
+    /* background-image: url(../images/back.jpg); */
+    /* 100% contain cover */
+    /* background-size: 20% 10%; */
+    /* background-repeat: no-repeat; */
+    /* background-color: red;
+    background-position: right bottom; */
+    /* background-image: url(../images/back.jpg);
+    background-attachment:fixed;
+    color:white; */
+    /* line-height: 2;
+    font-size: 1.2rem; */
+    /* font-style: italic; */
+    /* font-weight: 500;
+    font-variant: small-caps;
+} */
+
+
+
+/* #bg{
+    width:50%;
+    background-color: black;
+    color: wheat; */
+    /* padding: 3rem; */
+    /* padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+    padding-right: 4rem; */
+    /* padding: 3rem 4rem;
+    margin: 5% 6%;
+} */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div{
+    width:49.8%;
+    /* background-color: black; */
+    color: white;
+    /* margin-top: 5%; */
+    box-sizing: border-box;
+    display: inline-block;
+    /* height: 400px; */
+    vertical-align: top;
+}
+
+/* #bg{ */
+    /* padding: 30px; */
+    /* text-align: justify;
+} */
