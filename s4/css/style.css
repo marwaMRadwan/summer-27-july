@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #my-div{
+    margin:5% auto; */
+    /* height: 300px; */
+    /* width: 300px;
+    background-color: red; */
+    /* border-right: solid 10px black ;
+    border-left: dashed 10px yellow ;
+    border-top: double 10px blue;
+    border-bottom: dotted 10px purple ; */
+    /* border-width: 10px; */
+    /* solid dotted dashed groove  ridge doubled outset inset */
+    /* border-style: inset;
+    border-color: blue;
+    outline: 10px red solid; */
+    /* border-radius: 1rem 5rem 7rem 3rem;
+    border-top-left-radius: 10px; */
+    /* aspect-ratio: 2/5; */
+    /* border-radius: 50%; */
+/* }
+#my-div input{
+    border: none
+} */
+
+.container{
+    width:90%;
+    margin: auto;
+}
+.container-fluid{
+    width: 100%;
+}
+.inline-block{
+    display: inline-block;
+}
+.service-card{
+    width:30%;
+    aspect-ratio: 1/1;
+    /* background-color: blueviolet; */
+    margin: 0 1.5%;
+    text-align: center;
+    padding: 3% 1.5%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 5px lightgray;
+}
+.rounded{
+    border-radius: 50%;
+    width: 10rem;
+    /* margin: auto; */
+}
+.text-white{
+    color: blue;
+}
+.h1{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.py-2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.service-card p{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    height: 7.5rem;
+    overflow: hidden;
+}
