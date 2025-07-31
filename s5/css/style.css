@@ -64,3 +64,40 @@ a{
 #hero #images img:nth-child(2){
     margin-left: 3%;
 }
+
+#wellbeing{
+    background-color: #F4F4F4;
+    padding: 5% 0 0 5%;
+    margin-bottom: 3%;
+}
+#wellbeing h3{
+    color: #2B2B2B;
+    font-weight: 600;
+    font-size:2rem;
+    line-height: 2;
+    margin-bottom: 3%;
+}
+.w-50{
+    width: 49.5%;
+}
+#wellbeing .icon{
+    background-color: #285E67;
+    width: 55px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 4%;
+    border: none;
+    margin-bottom: 5%;
+}
+.text-justify{
+    text-align: justify;
+}
+#wellbeing p{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.w-47{
+    width: 45%;
+    margin-right: 4%;
+}
