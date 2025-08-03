@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width: 100%;
+    margin: auto;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin:1%; 
+    width: calc(100% / 3 - 2%);
+    box-shadow: 0 0 5px lightgray;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+.card-content{
+    padding: 3%;
+}
+.text-justify{
+    text-align: justify;
+}
+p{
+    line-height: 1.5rem;
+}
+.text-main{
+    color:brown
+}
+.my-3{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.card-content p{
+    height: 4.5rem;
+    overflow: hidden;
+}
+
+.my-btn{
+    background-color: brown;
+    color: antiquewhite;
+    padding: 3% 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: none;
+    border-radius: 1rem;
+    display: inline-block;
+}
+
+
+.test{
+    display: flex;
+    /* row row-reverse column column-reverse */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    /* start flex-start end flex-end space-between space-around  space-evenly. center */
+    justify-content: space-between;
+    /* baseline flex-start  center flex-end stretch */
+    align-items:stretch;
+}
+.test p{
+    width: 33%;
+    background-color: red;
+    color: whitesmoke;
+    border: 2px solid black;
+}
