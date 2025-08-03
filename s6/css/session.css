@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 1.5rem;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.bg-gray{
+    background-color: #E0E9F4;
+}
+.text-muted{
+    color: #90A3BF;
+}
+.bg-blue{
+    background-color: #3563E9;
+}
+.text-whit{
+    color: white;
+}
+.my-5{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.car-card{
+    width:30%;
+    background:white;
+    border-radius: 0.5rem;
+    padding: 2%;
+}
+
+.self-center{
+    align-self: center;
+}
+.text-center{
+    text-align: center;
+}
+.w-100{
+    width: 100%;
+}
