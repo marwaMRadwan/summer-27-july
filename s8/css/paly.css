@@ -1,0 +1,107 @@
+/* rem approx 16px, em ,  */
+/* div{
+    height: 300px;
+    background-color: black;
+    width: 300px; */
+    /* transform: translate(70px, 80px); */
+    /* transform: rotate(45deg); */
+    /* margin-top: 5%; */
+    /* margin: 5% auto; */
+    /* transform: scale(2,5); */
+    /* transform: scaleY(3); */
+    /* transform: skewY(30deg); */
+    /* transform: skew(0deg) rotate(0deg); */
+    /* transform: translateX(200px); */
+/* }
+div:hover{ */
+    /* transform: skew(30deg) rotate(360deg); */
+    /* width:500px; */
+    /* transition: all 2s; */
+    /* transform: rotateY(45deg);
+    transform-origin: left top;
+    transition: all 3s;
+} */
+/* div:hover{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transition: all 3s;
+} */
+/* p{
+    width: 30%;
+    height: 300px;
+    background-color: blue;
+} */
+
+.w-30{
+    width: 30%;
+}
+.m-2{
+    margin: 2%;
+}
+.w-100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.front{
+    transform: rotateX(0deg);
+    backface-visibility:hidden;
+    height: 100%;
+}
+.back{
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+    height: 100%;
+}
+.card:hover .front{
+    transform: rotateX(180deg);
+    transition: all 2s;
+}
+.card:hover .back{
+    transform: rotateX(0deg);
+    transition: all 2s;
+
+}
+.w-40{
+    width:40%;
+}
+
+.new-card img{
+    width: 100%;
+    height: 100%;
+}
+.img-card{
+    height: 300px;
+    overflow: hidden;
+}
+.new-card:hover img{
+    transform: rotate(10deg) scale(2);
+    transition: all .5s;
+}
+.new-card .content{
+    height: 300px;
+    background-color: red;
+    
+}
+.w-20{
+    width: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+.new-card:hover .w-20{
+    background-color: blue;
+    transition: all .5s;
+}
+.w-20 div{
+    border-bottom: 1px solid white;
+    text-align: center;
+    height: 5rem;
+}
