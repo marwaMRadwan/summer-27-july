@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+*{
+  font-family: "Agdasima", sans-serif;
+}
+h1{
+    font-size: 9rem;
+    letter-spacing: .3rem;
+}
+.hero{
+    background-image: url(../images/hero.png);
+}
