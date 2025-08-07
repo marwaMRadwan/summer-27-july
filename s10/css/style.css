@@ -1,0 +1,11 @@
+.carousel-item img{
+    height: 30rem;
+}
+.carousel-indicators button{
+    width: 1rem!important;
+    height:1rem!important;
+    background-color: red!important;
+}
+.carousel-indicators{
+    bottom: -10%;
+}
